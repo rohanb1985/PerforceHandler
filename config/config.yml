@@ -1,0 +1,13 @@
+# Configuration File for program.
+
+#File where the Branch details can be found
+BranchesFile: config\Perforce_Branches.yml
+
+# Other user inputs
+p4DepotHead: //DEV/
+#StartDate - Date from which merges is to be done. In YYYY/MM/DD format.
+StartDate: 2017/11/05
+#userRoot - Where new workspaces will be created.
+userRoot: C:\projs\
+#logging - to turn on or off the console logging. Valid values - Y or N
+logging: Y

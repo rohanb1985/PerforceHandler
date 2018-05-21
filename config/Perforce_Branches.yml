@@ -1,0 +1,28 @@
+# The following section contains the Branch Details in Perforce. 
+
+#Please note the indentation (tab)
+
+AvailableBranches:
+    - 123_Drop1
+    - 234_Drop2
+    - 345_Drop3
+    - 456_Drop4
+    - dev
+
+#Each highlighed branch is the mother branch and the list following it defines the branches where merges is to be done. 
+BranchDetails:
+    123_Drop1:
+        - 234_Drop2
+        - 345_Drop3
+        - 456_Drop4
+        - dev
+    234_Drop2:
+        - 345_Drop3
+        - 456_Drop4
+        - dev
+    345_Drop3:
+        - 456_Drop4
+        - dev
+    456_Drop4:
+        - dev
+    dev:
